@@ -2,61 +2,35 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
 
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home"><span id="hlight">01</span><span id="roboto"> home</span></a></li>
+            <li><a href="#about"><span id="hlight">02</span><span id="roboto"> about</span></a></li>
+            <li><a href="#research"><span id="hlight">03</span><span id="roboto"> research</span></a></li>
+            <li><a href="#experience"><span id="hlight">04</span><span id="roboto"> experience</span></a></li>
+            <li><a href="#cv"><span id="hlight">05</span><span id="roboto"> cv</span></a></li>
+        </ul>
+    </nav>
+</header>
 
-<div id="navbar">
-    <a href="#home">home</a>
-    <a href="#about">about</a>
-    <a href="#research">research</a>
-    <a href="#experience">experience</a>
-    <a href="#cv">cv</a>
+<div class="overlapping">
+    <div class="top">
+        <h1 style="text-align: center;"><span id="kabond">Kevin</span></h1>
+    </div>
+    <div class="bottom">
+        <div class="marquee">
+            <div class="track">
+            <div class="content" style="font-size:144px;"><span id="wrap">&nbsp;SHAN SHAN SHAN SHAN SHAN</span></div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script>
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {myFunction()};
 
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
-    }
-</script>
-
-<h1>Kevin Shan</h1>
-    
-<h1>Header 1</h1>
-
-<h2>Header 2</h2>
-
-<h3>Header 3</h3>
-
-<h4>Header 4</h4>
-
-<p>Body</p>
-
-<!-- Structure:
-Name
-Backgroud
-Research
-Experience
-Awards
-CV -->
-
-
-</body>
-</html>
