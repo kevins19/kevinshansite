@@ -12,20 +12,22 @@
 <header>
     <nav style="background-color: white">
         <ul>
-            <svg width="60" height="60" style="padding: 0px; background-color:white">
-                <g transform="translate(10, 10)">
-                    <rect width="40" height="40" fill="black" />
-                    <rect width="40" height="40" stroke="white" stroke-width="4" fill="black" transform = " rotate(45, 20, 20)"/>
-                </g>
-                <g>
+            
+            <svg width="80" height="60" style="padding: 0px; background-color:white">
+                <g class="logo">
+                    <rect class="backbox" x=10 y=10 width="40" height="40" fill="black"/>
+                    <!-- <rect width="40" height="40" fill="black " transform = " rotate(90, 20, 20)"/> -->
+                    <rect class="frontbox" x=10 y=10 width="40" height="40" stroke="white" stroke-width="4" fill="black"/>
                     <defs>
                         <filter id="shadow">
                             <feDropShadow dx="5" dy="0" stdDeviation="0.2" flood-color="blue" />
                         </filter>
                     </defs>
-                    <text x = 20 y = 35 fill="blue" font-size="16px" style="text-shadow: black 0px 0px 10px; font-weight: 700; font-family: 'Manrope'">K</text>
+                    <g class="texticon">
+                        <text x = 27 y = 37 fill="white" font-size="20px" style="text-shadow: black 0px 0px 10px; font-weight: 700; font-family: 'Manrope'">S</text>
+                        <text x = 19 y = 37 fill="white" font-size="20px" style="text-shadow: black 0px 0px 10px; font-weight: 700; font-family: 'Manrope'">K </text>
+                    </g>
                 </g>
-                
             </svg>
             <li><a href="./about.html"><span id="hlight">01</span><span id="roboto"> about</span></a></li>
             <li><a href="./experience.html"><span id="hlight">02</span><span id="roboto"> experience</span></a></li>

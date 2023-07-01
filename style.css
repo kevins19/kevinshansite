@@ -36,7 +36,7 @@
 @font-face {
     font-family: Manrope;
     src: url('./fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
-    font-weight: 700px
+    font-weight: 2000px;
 }
 
 
@@ -234,10 +234,43 @@ header {
 }
 
 html {
-    scroll-behavior: smootsh;
+    scroll-behavior: smooth;
   }
 
 
 #info {
     text-align: right
 }
+
+.frontbox{
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 0.5s;
+    
+}
+/* .frontbox:hover {
+    transform: rotate(45deg);
+} */
+
+.backbox{
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 0.5s;
+}
+/* .backbox:hover {
+    transform: rotate(-90deg);
+} */
+
+/* .logo:hover{
+    transform: rotate(-90deg);
+} */
+
+.texticon {
+    transition: transform 0.5s;
+    transform-box: fill-box; transform-origin: center; 
+}
+
+/* .logo:hover > rect.backbox{ transform: rotate(-90deg); transform-origin: 20px 20px;} */
+.logo:hover > rect.frontbox { transform: rotate(45deg);}
+.logo:hover > rect.backbox { transform: rotate(-90deg);}
+.logo:hover > g.texticon { transform: scale(1.1); }
