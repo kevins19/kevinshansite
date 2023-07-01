@@ -33,6 +33,14 @@
     src: url('./fonts/Helvetica/Helvetica Neue Ultralight.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Manrope;
+    src: url('./fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: 700px
+}
+
+
+
 h1{
     font-weight: normal;
     font-size: 160px;
@@ -80,6 +88,11 @@ h3{
     /* font-weight: bolder; */
 }
 
+#manrope{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700px
+}
+
 #wrap{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bolder;
@@ -88,6 +101,8 @@ h3{
     -webkit-text-stroke-color: white;
     /* opacity: 0.5; */
 }
+
+
 
 .marquee {
     position: relative;
@@ -123,7 +138,7 @@ h3{
     background-color: white;
 }
 .bottom{
-    top: 210px;
+    top: 220px;
     position: absolute;
     /* background-color: red */
     mix-blend-mode: difference;
@@ -143,9 +158,9 @@ h3{
 header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -10px;
     right: 0;
-    height: 18px;
+    height: 50px;
     z-index: 1;
     font-size: 2em;
     color: black;
@@ -153,7 +168,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 30px;
+    padding: 15px;
     gap: 0.5em;
   }
   
@@ -184,22 +199,24 @@ header {
     font-weight: bolder;
     /* color:black; */
     color:white;
+    left: -500;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #E3E3E3;
     position: relative;
     line-height: 260px;
-    height: 200px;
+    /* height: 200px; */
     font-size: 230px;  
 }
 .label{
     font-family: Harmond;
     /* margin: 100px; */
     width:100%;
-    top:-70px;
-    height:200px;  
+    top:-95px;
+    /* height:200px;   */
     position: relative;
     color:black;
     font-size: 120px;
+    writing-mode:vertical-lr;
     /* background-color:blue;  */
 }
 
@@ -214,4 +231,13 @@ header {
     /* filter:blur(0); */
     opacity: 1;
     transform: translateX(0);
+}
+
+html {
+    scroll-behavior: smootsh;
+  }
+
+
+#info {
+    text-align: right
 }
