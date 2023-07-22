@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.nav {
+
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +43,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+.pic{
+  justify-content: center;
+  width:50%;
+  align-items: center;
+  display:flex
 }

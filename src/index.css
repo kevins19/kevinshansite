@@ -1,3 +1,10 @@
+html { overflow: hidden; } 
+body { overflow: hidden; }
+.parallax-remove-scrollbar {
+	-webkit-scrollbar-display: none !important;
+	scrollbar-width: 0 !important;
+	overflow: hidden !important;
+}
 @font-face {
   font-family: Aventi;
   src: url('./fonts/Aventi/Aventi.ttf') format('truetype');
@@ -43,7 +50,7 @@
 
 h1{
   font-weight: normal;
-  font-size: 160px;
+  font-size: 300px;
   text-align: center;
 }
 
@@ -107,7 +114,7 @@ h3{
   width: 100vw;
   max-width: 100%;
   margin: 0;
-  height: 200px;
+  height: 250px;
   overflow-x: hidden;
   overflow: hidden;
 }
@@ -116,6 +123,7 @@ h3{
   position: absolute;
   white-space: nowrap;
   will-change: transform;
+  
   animation: marquee 120s linear infinite;
 }
 
@@ -129,14 +137,23 @@ h3{
   /* background-color:green */
 }
 .top{
-  position: relative;
+  position: absolute;
   line-height: 260px;
+  top:11%;
   margin: 0px;
   width: 100%;
   background-color: white;
 }
+.labelling{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top: 70%;
+}
 .bottom{
-  top: 220px;
+  top: 45%;
   position: absolute;
   /* background-color: red */
   mix-blend-mode: difference;
@@ -144,12 +161,12 @@ h3{
 }
 .namebox{
   position: absolute;
-  top: 60px;
+  top: 20%;
   left: 0; 
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 500px; /* Need a specific value to work */
+  width: 100%; /* Need a specific value to work */
   /* background-color: green; */
 }
 
@@ -192,11 +209,12 @@ header ul li a {
   font-size: 12px;
   text-decoration:none;
 }
+
 header ul li a::after{
   content: "";
   position: absolute;
-  background-color: black;
-  height: 3px;
+  background-color: #B1B1B1;
+  height: 2px;
   width: 0px;
   bottom: -4px;
   transition: 0.5s ease;
@@ -287,3 +305,7 @@ html {
 .logo:hover > rect.backbox { transform: rotate(-90deg);}
 .logo:hover > g.texticon { transform: scale(1.1); }
 
+
+.section1right{
+  
+}
