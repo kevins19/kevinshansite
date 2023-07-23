@@ -50,6 +50,7 @@ body { overflow: hidden; }
 
 h1{
   font-weight: normal;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 300px;
   text-align: center;
 }
@@ -64,9 +65,18 @@ h2{
 
 h3{
   font-weight: normal;
-  font-size: 24px;
+  font-size: 27px;
   font-family: Roboto;
   text-align: center;
+}
+
+p{
+  font-weight: normal;
+  font-size: 15px;
+  font-family: Roboto;
+  text-align: left;
+  padding: 20px;
+  color:white;
 }
 
 #fancytext {
@@ -139,7 +149,7 @@ h3{
 .top{
   position: absolute;
   line-height: 260px;
-  top:11%;
+  top:9%;
   margin: 0px;
   width: 100%;
   background-color: white;
@@ -153,7 +163,7 @@ h3{
   top: 70%;
 }
 .bottom{
-  top: 45%;
+  top: 40%;
   position: absolute;
   /* background-color: red */
   mix-blend-mode: difference;
@@ -161,7 +171,7 @@ h3{
 }
 .namebox{
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 0; 
   right: 0; 
   margin-left: auto; 
@@ -170,12 +180,36 @@ h3{
   /* background-color: green; */
 }
 
+.scrollloc{
+  position:absolute;
+  top: 78%;
+  margin-left: auto; 
+  margin-right: auto; 
+  left: 25px; 
+  right: 0; 
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollcaption{
+  position:absolute;
+  top: 90%;
+  margin-left: auto; 
+  margin-right: auto; 
+  left: 0; 
+  right: 0; 
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
 header {
   position: fixed;
   top: 0;
   left: -10px;
   right: 0;
-  height: 50px;
+  height: 60px;
   z-index: 1;
   font-size: 2em;
   color: black;
@@ -307,5 +341,325 @@ html {
 
 
 .section1right{
-  
+  width: 50%;
+  float: right;
+  background-color: white;
+  height: 100%;
 }
+
+.sectionheader{
+  left:58%;
+  right:8;
+  width:34%;
+  position: absolute;
+  float: left;
+  /* padding-left: 20px; 
+  padding-right: 20px;  */
+  /* background-color: red; */
+  top: 20%;
+}
+
+.sectiontitle{
+  /* left:0%; */
+  left: 50%;
+  right: 0%;
+  width: 50%;
+  position: absolute;
+  float: right;
+    /* background-color: red; */
+  top: 15%;
+  /* background-color:white; */
+}
+.sectiontitleback{
+  /* mix-blend-mode: "difference"; */
+  left: 51%;
+  right: 0%;
+  width: 50%;
+  position: absolute;
+  float: right;
+    /* background-color: red; */
+  top: 16%;
+  opacity: 20%;
+  /* background-color:white; */
+}
+
+.section2solid{
+  width: 100%;
+  background-color:white;
+  height: 100%;
+  padding-top: 1%;
+}
+
+.section2title{
+  /* left:0%; */
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  position: absolute;
+  float: right;
+    /* background-color: red; */
+  top: 0;
+  padding-top: 1%;
+  background-color: white;
+  height: 100%
+  /* background-color:white; */
+}
+.section2titleback{
+  /* mix-blend-mode: "difference"; */
+  left: 1%;
+  right: 0%;
+  width: 100%;
+  position: absolute;
+  float: right;
+    /* background-color: red; */
+  top: 1%;
+  opacity: 20%;
+  padding-top: 1%
+  
+  /* background-color:whit  padding-top: 1%
+; */
+}
+
+.experience{
+  /* left: 10%; */
+  float: left;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background-color: black;
+  border-color: black;
+  border-width: 2px;
+  top: 30%;
+  opacity: 90%
+}
+
+.e1{
+  left: 10%;
+  right: 30%;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: black;
+  border-color: black;
+  border-width: 2px;
+  top: 30%;
+  opacity: 90%
+}
+.e2{
+  left: 40%;
+  right:100%;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  /* float: left; */
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: black;
+  border-color: black;
+  border-width: 2px;
+  top: 30%;
+  opacity: 90%;
+}
+.e3{
+  left: 70%;
+  right: 10%;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background-color: black;
+  border-color: black;
+  border-width: 2px;
+  top: 30%;
+  opacity: 90%;
+}
+
+.competitionheader{
+  width: 100%;
+  height: 100%;
+  float: right;
+  left: 0;
+  padding: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414
+}
+.competitiontitle{
+  float: right;
+  right: -180px;
+  top: 350px;
+  position: absolute;
+  rotate: 90deg;
+  /* background-color: black; */
+}
+.competitiontitleshadow{
+  float: right;
+  right: -170px;
+  top: 360px;
+  position: absolute;
+  rotate: 90deg;
+  /* background-color: black; */
+}
+.competitiondescription{
+  float: right;
+  right: 400px;
+  top: 200px;
+  width: 30%;
+  position: absolute;
+  /* background-color:white; */
+}
+.contestcontainer{
+  float: left;
+  left: 20px;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  /* background-color: blue; */
+  align-items: center;
+}
+.contestresults{
+  /* width: 100%; */
+  height: 100%;
+  width: 80%;
+  left: 10%;
+  position: absolute;
+  /* background-color: red; */
+  /* opacity: 80%; */
+}
+.contestbackground{
+  position: absolute;
+  top: -100px;
+  height:100%;
+  width: 100%;
+  opacity: 10%;
+  text-align: center;
+  /* background-color: red; */
+}
+.contestplacement{
+  position: absolute;
+  top: 200px;
+  height:100%;
+  width: 100%;
+  opacity: 40%;
+  text-align: center;
+  /* background-color: red; */
+}
+
+.projecttitle{
+  position:absolute;
+  float: right;
+  right:0;
+  top: 0px;
+  left: 100px;
+  /* background-color: red; */
+}
+.projectback1{
+  position:absolute;
+  float: right;
+  right:0;
+  top: -40px;
+  left: 120px;
+  opacity: 5%;
+  background-color:'red';
+}
+.projectback2{
+  position:absolute;
+  float: right;
+  right:0;
+  top: -140px;
+  width: 100%;
+  /* background-color: red; */
+  opacity: 5%;
+}
+
+.projectcontainer{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+  top: 300px;
+  left: 0;
+  right:0;
+  /* background-color: red; */
+  opacity: 90%;
+}
+.projectdetails{
+  position: absolute;
+  float: right;
+  top: 130px;
+  right: 180px;
+  width: 500px;
+  height: 200px;
+  /* background-color:red; */
+}
+.contacttitle{
+  position: absolute;
+  left: 200px;
+  top: 170px;
+  /* background-color: red;; */
+
+}
+.contacttitleback{
+  position: absolute;
+  left: 210px;
+  top: 180px;
+  /* background-color: red;; */
+  opacity: 10%;
+
+}
+.solidwhite{
+  left:0px;
+  right:0px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.solidblack{
+  height:100%;
+  width: 100%;
+  background-color: black;
+}
+
+/* .gradient1{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 10%
+}
+.gradient2{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 20%
+}
+.gradient3{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 40%
+}
+.gradient4{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 60%
+}
+.gradient5{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 80%
+}
+.gradient6{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 100%
+} */
