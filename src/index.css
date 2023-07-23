@@ -149,7 +149,7 @@ p{
 .top{
   position: absolute;
   line-height: 260px;
-  top:9%;
+  top:50px;
   margin: 0px;
   width: 100%;
   background-color: white;
@@ -160,10 +160,10 @@ p{
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-  top: 70%;
+  top: 650px;
 }
 .bottom{
-  top: 40%;
+  top: 380px;
   position: absolute;
   /* background-color: red */
   mix-blend-mode: difference;
@@ -171,7 +171,7 @@ p{
 }
 .namebox{
   position: absolute;
-  top: 15%;
+  top: 130px;
   left: 0; 
   right: 0; 
   margin-left: auto; 
@@ -182,7 +182,7 @@ p{
 
 .scrollloc{
   position:absolute;
-  top: 78%;
+  top: 700px;
   margin-left: auto; 
   margin-right: auto; 
   left: 25px; 
@@ -194,7 +194,7 @@ p{
 
 .scrollcaption{
   position:absolute;
-  top: 90%;
+  top: 840px;
   margin-left: auto; 
   margin-right: auto; 
   left: 0; 
@@ -579,15 +579,18 @@ html {
 
 .projectcontainer{
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 300px;
-  top: 300px;
-  left: 0;
-  right:0;
-  /* background-color: red; */
-  opacity: 90%;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 450px;
+  height: 450px;
+  top: 420px;
+  background-color: white;
+  border-style:solid;
+  border-color:black;
+  border-width:10px;
+  align-items:center;
+  justify-content: center;
+  /* opacity: 90%; */
 }
 .projectdetails{
   position: absolute;
@@ -601,14 +604,14 @@ html {
 .contacttitle{
   position: absolute;
   left: 200px;
-  top: 170px;
+  top: 150px;
   /* background-color: red;; */
 
 }
 .contacttitleback{
   position: absolute;
   left: 210px;
-  top: 180px;
+  top: 160px;
   /* background-color: red;; */
   opacity: 10%;
 
@@ -627,6 +630,26 @@ html {
   background-color: black;
 }
 
+.contactbox{
+  height: 400px;
+  left: 200px;
+  position: absolute;
+  width: 700px;
+  top: 370px;
+  /* background-color: red; */
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+}
+
+.contactmessage{
+  top: 370px;
+  left: 950px;
+  position:absolute;
+  width: 400px;
+  /* width:100%; */
+  /* background-color:red */
+}
 /* .gradient1{
   height: 100%;
   width: 100%;

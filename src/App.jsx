@@ -75,7 +75,7 @@ function App() {
               sticky={{ start: 1, end: 7}}
               >
                 <div className='pic'>
-                    <img src={img1} width ="50%"/>
+                    <img src={img1} width ="50%"/>  
                 </div>
                 
             </ParallaxLayer>
@@ -198,39 +198,35 @@ function App() {
                 
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:7.5, end:10}}
+                sticky = {{start:7.5, end:7.75}}
                 speed={0.1}>
                 <div className='e1'>
-                    <h2 style={{color: "white", fontSize: "23px"}}>Research at UMD</h2>
+                    <h2 style={{margin: '20px', color: "white", fontSize: "27px"}}>Real-time Bidding Research</h2>
+                    <h3 style={{margin: '20px', color:"white", fontSize:"20px", opacity:'70%'}}>University of Maryland</h3>
+                    <p style={{margin:'20px'}}>Developed a novel cost-per-click (CPC) focused budget pacing algorithm for online advertisement auctions.</p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:8.5, end:10.15}}
+                sticky = {{start:7.65, end:7.90}}
                 speed={0.1}>
                 <div className='e2'>
-                    <h2 style={{color: "white", fontSize: "23px"}}>Programming Intern</h2>
+                    <h2 style={{margin: '20px', color: "white", fontSize: "27px"}}>Programming Intern</h2>
+                    <h3 style={{margin: '20px', color:"white", fontSize:"20px", opacity:'70%'}}>HydroGeoLogic, Inc.</h3>
+                    <p style={{margin:'20px'}}>Developed an algorithm for vertex reduction in munition site boundaries, improving project proposal costs by 30%.</p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:9.5, end:10.3}}
+                sticky = {{start:7.8, end:8.05}}
                 speed={0.1}>
                 <div className='e3'>
-                    <h2 style={{color: "white", fontSize: "23px"}}>Science and Engineering Apprenticeship Program (SEAP) Intern</h2>
-                    <p>
-                    • Developed a novel real-time bidding strategy prioritizing the minimization of cost-per-click in ad campaigns. 
-
-• Investigated state of the art approaches to real-time bidding, involving spheres of machine learning, mathematical
-modeling, and auction theory.
-
-• Processed large real-world advertisement auction data sets, such as the iPinYou data set, using Python.
-
-                    </p>
+                    <h2 style={{margin: '20px', color: "white", fontSize: "27px"}}>Science and Engineering Apprenticeship Program (SEAP) Intern</h2>
+                    <h3 style={{margin: '20px', color:"white", fontSize:"20px", opacity:'70%'}}>Carderock Naval Surface Warfare Center</h3>
+                    <p style={{margin:'20px'}}>Simulated and modelled how the altercation of physical submarine structures affects the lift of a control surface.</p>
                     
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky={{start:12, end:15}}
-                horizontal={true}
+                sticky={{start:9, end:12}}
                 >
                 
                     <div className="competitionheader">
@@ -240,16 +236,16 @@ modeling, and auction theory.
                 
             </ParallaxLayer>
             <ParallaxLayer
-                sticky={{start:12.3, end:15}}>
+                sticky={{start:9.3, end:12}}>
                 <div className="competitiondescription">
                     <h2 style={{fontSize: "50px", color:"white"}}>Where it all started...</h2>
-                    <h3 style={{textAlign: "left", color:"white"}}>I've been a <u>competitive programmer</u> since <i>2020</i>. </h3>
+                    <h3 style={{textAlign: "center", color:"white"}}>I've been a <u>competitive programmer</u> since <i>2020</i>. </h3>
                     <p>I've competed in nearly 100 contests, and have placed highly against thousands of other contestants from across the world. I primarily use C++ during contests (and occasionally Java or Python)--and as a result of frequent practice, I am now pretty comfortable with using traditional algorithms and writing efficient code.</p>
                     <p>I love winning free t-shirts, prizes, and more from contests--but the best part is getting out there and having fun! I've compiled here some of my proudest contests.</p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start: 13.5, end:13.5}}>
+                sticky = {{start: 10.5, end:10.5}}>
                     <div className='contestcontainer' >
                         <div className="contestresults">
                             <h2 style={{fontSize: "50px", color:"white"}}>USACO Platinum</h2>
@@ -265,7 +261,7 @@ modeling, and auction theory.
                     </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start: 14, end:14}}>
+                sticky = {{start: 11, end:11}}>
                     <div className='contestcontainer' >
                         <div className="contestresults">
                             <h2 style={{fontSize: "50px", color:"white"}}>Meta Hacker Cup</h2>
@@ -281,7 +277,7 @@ modeling, and auction theory.
                     </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start: 14.5, end:14.5}}>
+                sticky = {{start: 11.5, end:11.5}}>
                     <div className='contestcontainer' >
                         <div className="contestresults">
                             <h2 style={{fontSize: "50px", color:"white"}}>Google Code Jam</h2>
@@ -297,7 +293,7 @@ modeling, and auction theory.
             </ParallaxLayer>
 
             <ParallaxLayer
-                sticky = {{start: 15, end:15}}>
+                sticky = {{start: 12, end:12}}>
                     <div className='contestcontainer' >
                         <div className="contestresults">
                             <h2 style={{fontSize: "50px", color:"white"}}>Google Kickstart</h2>
@@ -312,7 +308,7 @@ modeling, and auction theory.
                     </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start: 15.5, end:15.5}}>
+                sticky = {{start: 12.5, end:12.5}}>
                     <div className='contestcontainer' >
                         <div className="contestresults">
                             <h2 style={{fontSize: "50px", color:"white"}}>Codeforces Master</h2>
@@ -328,7 +324,7 @@ modeling, and auction theory.
                     </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:16, end:18}}
+                sticky = {{start:13, end:18}}
                 speed={0.75}>
                 <div className='section2solid'></div>
                 <div className='projecttitle'>
@@ -336,56 +332,76 @@ modeling, and auction theory.
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:16, end:18}}
+                sticky = {{start:13, end:18}}
                 speed={0.75}>
                 <div className='projectdetails'>
-                    <p style={{color:'black', fontSize:"20px"}}>I'm always looking for new things to do! Check out some of my projects that I've worked on for the past few years:</p>
+                    <p style={{color:'black', fontSize:"20px"}}>I'm always looking for new things to do! Check out some of my projects that I've worked on during the past few years:</p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:16, end:18}}
+                sticky = {{start:13, end:18}}
                 speed={0.75}>
                 <div className='projectback1'>
                     <h1 style = {{fontSize:'230px', textAlign:"left"}}>Projects</h1>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:17, end:18}}
-                speed={0.75}>
-                <div className='projectcontainer'>
-                    <h2 style={{fontSize: "50px"}}>Force-directed Graph Visualization</h2>
-                    <p></p>
+                sticky = {{start:13.7, end:18}}>
+                <div className='projectcontainer' style={{left:'50px'}}>
+                    <h2 style={{fontSize: "30px"}}>Force-directed Graph Visualization</h2>
+                    <h3 style={{fontSize: "20px"}}><i>JavaScript, Python, HTML/CSS</i></h3>
+                    <p style={{color:'black'}}></p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:18, end:22}}
+                sticky = {{start:13.8, end:18}}>
+                <div className='projectcontainer' style={{left:'0', right:'0', marginLeft:'auto', marginRight:'auto'}}>
+                    <h2 style={{fontSize: "30px"}}>Personal Website</h2>
+                    <h3 style={{fontSize: "20px"}}><i>JavaScript, HTML/CSS, React</i></h3>
+                    <p style={{color:'black'}}></p>
+                </div>
+            </ParallaxLayer>
+            <ParallaxLayer
+                sticky = {{start:13.9, end:18}}>
+                <div className='projectcontainer' style={{right:'50px', float:'right'}}>
+                    <h2 style={{fontSize: "30px"}}>Coin Detection</h2>
+                    <h3 style={{fontSize: "20px"}}><i>C++, OpenCV</i></h3>
+                    <p style={{color:'black'}}></p>
+                </div>
+            </ParallaxLayer>
+
+            <ParallaxLayer
+                sticky = {{start:15.5, end:19}}
                 // offset = {18}
                 speed={0.75}>
                 <div className='solidwhite'></div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:18, end:21}}
+                sticky = {{start:15.5, end:18}}
                 speed={0.1}>
                 <div className='contacttitle'>
-                    <h1 style={{fontSize: "100px"}}>Let's get in touch!</h1>
-                </div>
-            </ParallaxLayer>
-            <ParallaxLayer
-                sticky = {{start:18, end:21}}
-                speed={0.1}>
-                <div className='contacttitleback'>
                     <h1 style={{fontSize: "105px"}}>Let's get in touch!</h1>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
-                sticky = {{start:23, end:23}}
-                speed={0.75}>
-                <div className='section2solid'>
-                    <h1>End Here</h1>
+                sticky = {{start:15.5, end:18}}
+                speed={0.1}>
+                <div className='contacttitleback'>
+                    <h1 style={{fontSize: "105px"}}>Let's get in touch!</h1>
                 </div>
-                
+                <div className='contactbox'>
+                    <h3 style={{textAlign:'left', margin:'20px'}}>LinkedIn: <u>Link</u></h3>
+                    <h3 style={{textAlign:'left', margin:'20px'}}>Resume: <u>Link</u></h3>
+                    <h3 style={{textAlign:'left', margin:'20px'}}>Email: <u>Copy</u></h3>
+                    <h3 style={{textAlign:'left', margin:'20px'}}>Phone: <u>Copy</u></h3>
+                </div>
+                <div className='contactmessage'>
+                    <p style={{color:'black'}}>I'm open to new research ideas, questions about programming, and work opportunities! (And of course, if you find a bug in this site c: )</p>
+                    <p style={{color:'black'}}>Just shoot me a message through any of the links on the left, and I'll try my best to get back to you ASAP.</p>
+                </div>
             </ParallaxLayer>
           </Parallax>
+
         </div>
     );
 }
