@@ -372,7 +372,7 @@ modeling, and auction theory.
                 sticky = {{start:18, end:21}}
                 speed={0.1}>
                 <div className='contacttitleback'>
-                    <h1 style={{fontSize: "100px"}}>Let's get in touch!</h1>
+                    <h1 style={{fontSize: "105px"}}>Let's get in touch!</h1>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
