@@ -293,6 +293,7 @@ modeling, and auction theory.
                         </div>
                     </div>
             </ParallaxLayer>
+
             <ParallaxLayer
                 sticky = {{start: 15, end:15}}>
                     <div className='contestcontainer' >
@@ -336,7 +337,7 @@ modeling, and auction theory.
                 sticky = {{start:16, end:18}}
                 speed={0.75}>
                 <div className='projectdetails'>
-                    <p style={{color:'black', fontSize:"20px"}}>I'm always looking for new things to do! Check out some of my projects that I've worked on for the past few years.</p>
+                    <p style={{color:'black', fontSize:"20px"}}>I'm always looking for new things to do! Check out some of my projects that I've worked on for the past few years:</p>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer
