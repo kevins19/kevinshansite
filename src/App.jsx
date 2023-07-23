@@ -68,6 +68,8 @@ function App() {
                   </div>
     <h2><span className="labelling" id='roboto'>I'm a <b>Student</b>, <b>Researcher</b>, <b>Creator</b>, and <b>Programmer.</b> </span></h2></div>
             </ParallaxLayer>
+            
+
             <ParallaxLayer 
               speed = {0.5}
               sticky={{ start: 1, end: 7}}
