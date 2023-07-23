@@ -383,9 +383,7 @@ modeling, and auction theory.
                 </div>
                 
             </ParallaxLayer>
-            
           </Parallax>
-          
         </div>
     );
 }
