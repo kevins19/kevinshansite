@@ -6,7 +6,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import img1 from './images/img1.jpeg'
 import scrollgif from './images/scroll.gif'
 import './index.css'
-import './transition.js'
+// import './transition.js'
 
 function App() {
     return (
