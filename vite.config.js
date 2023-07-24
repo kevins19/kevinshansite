@@ -4,6 +4,6 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/kevinshansite/',
+  base: '/kevinshansite',
   plugins: [react()],
 })
